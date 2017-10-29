@@ -1,0 +1,16 @@
+{
+    "config": {
+      "thread_stack_size": {
+        "value": 4096
+      },
+      "main_stack_size": {
+        "value": 4096
+      }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-flush-at-exit": false,
+            "platform.stdio-baud-rate": 115200
+        }
+    }
+  }
